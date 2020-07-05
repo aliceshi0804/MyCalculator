@@ -16,7 +16,6 @@ body {
     font-family: inherit;
 }
 
-/* Variables */
 :root {
     --color-white: #fff;
     --color-light-white: #eee;
@@ -31,4 +30,15 @@ body {
     --color-black: #000;
 
     --shadow: rgba(0, 0, 0, .4);
+}
+
+.app {
+    height: 100vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(to bottom right, #e66465, #9198e5);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
