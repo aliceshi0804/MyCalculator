@@ -49,3 +49,32 @@ body {
     box-shadow: 0 2rem 4rem var(--shadow);
     background-color: var(--color-light-black);
 }
+
+.result-screen {
+    height: 19vh;
+    font-size: 8rem;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.computation-screen {
+    height: 6vh;
+    font-size: 2.5rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.screen {
+    height: 25vh;
+    width: 100%;
+    padding: 0 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    color: var(--color-light-white);
+    background-color: var(--color-tomato);
+}

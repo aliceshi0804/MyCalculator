@@ -1,5 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Screen from './Screen/Screen';
+ 
+const calculator = () => (
+    <main className="calculator">
+        <Screen />
 
-const calculator = () => <main className="calculator"></main>
+    </main>
+);
 
 export default calculator;
