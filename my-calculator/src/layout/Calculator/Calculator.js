@@ -12,8 +12,6 @@ class Calculator extends React.Component {
         let equation = this.state.equation;
         const pressedButton = event.target.innerHTML;
         if (pressedButton === 'AC') return this.clear();
-        // else if ((pressedButton >= '0' && pressedButton <= '9') || pressedButton === '.') equation += pressedButton;
-        // else if (['+', '-', '×', '÷', '^'].indexOf(pressedButton) !== -1) equation += ' ' + pressedButton + ' ';
         else if (['+', '-', '×', '÷', '^', '1', '2' ,'3', '4', '5', '6', '7', '8', '9', '0', '.'].indexOf(pressedButton) !== -1) {
             equation += pressedButton
         }
@@ -27,7 +25,6 @@ class Calculator extends React.Component {
             }
         }
         else {
-            // equation = equation.trim();
             equation = equation.substr(0, equation.length - 1);
         }
         this.setState({equation: equation});
